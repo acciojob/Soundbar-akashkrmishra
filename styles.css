@@ -9,7 +9,7 @@
     justify-content: space-between
 	
 }
-#btn{
+.btn,.stop{
 	width: 100px;
 	height: 30px;
 	border-radious:25px;
