@@ -1,39 +1,34 @@
 //your JS code here. If required.
-const applause = document.querySelector(".btn");
+const applause = document.querySelector(".applause");
 applause.addEventListener("click",() => {
-    let mysound = new Audio('http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3');
-    mysound.play();
+let mysound = new Audio('http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3');
+mysound.play();
 });
 
-const boo = document.querySelector(".btn");
+const boo = document.querySelector(".boo");
 boo.addEventListener("click",() => {
-    let mysound = new Audio('http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3');
-    mysound.play();
+let mysound = new Audio('http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3');
+mysound.play();
 });
 
-const gasp = document.querySelector(".btn");
+const gasp = document.querySelector(".gasp");
 gasp.addEventListener("click",() => {
-    let mysound = new Audio('http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3');
-    mysound.play();
+let mysound = new Audio('http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3');
+mysound.play();
 });
 
-const tada = document.querySelector(".btn");
+const tada = document.querySelector(".tada");
 tada.addEventListener("click",() => {
-    let mysound = new Audio('http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3');
-    mysound.play();
+let mysound = new Audio('http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3');
+mysound.play();
 });
 
-const victory = document.querySelector(".btn");
+const victory = document.querySelector(".victory");
 victory.addEventListener("click",() => {
-    let mysound = new Audio('http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3');
-    mysound.play();
+let mysound = new Audio('http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3');
+mysound.play();
 });
 
-const wrong = document.querySelector(".btn");
-wrong.addEventListener("click",() => {
-    let mysound = new Audio('http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3');
-    mysound.play();
-});
 
 const stop = document.querySelector(".stop");
 stop.addEventListener("click",() => {
