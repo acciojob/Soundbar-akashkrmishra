@@ -1,4 +1,5 @@
 //your JS code here. If required.
+window.onload = function() {
 const applause = document.querySelector(".applause");
 applause.addEventListener("click",() => {
 	console.log("applause button clicked");
@@ -43,3 +44,4 @@ stop.addEventListener("click",() => {
 	mysound.pause();
     mysound.currentTime = 0;
 });
+}
